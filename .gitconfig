@@ -1,0 +1,7 @@
+[user]
+	name = Alan Kydd
+	email = akydd@ualberta.net
+[color]
+	ui = true
+[credential]
+	helper = cache

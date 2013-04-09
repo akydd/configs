@@ -1,0 +1,28 @@
+URxvt*saveLines:2000
+URxvt*foreground:White
+URxvt*background:Black
+#URxvt*font:-*-courier-medium-r-normal-*-*-120-*-*-*-*-iso8859-1
+#URxvt*boldFont:-*-courier-bold-r-normal-*-*-120-*-*-*-*-iso8859-1
+#URxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+#URxvt*boldFont: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
+URxvt*font: xft:Ubuntu Mono:pixelsize=14,style=Regular
+URxvt*boldFont: xft:Ubuntu Mono:pixelsize=14,style=Bold
+
+URxvt*color4:RoyalBlue
+URxvt*color12:RoyalBlue
+URxvt*scrollBar:true
+URxvt*scrollBar_right:false
+URxvt*scrollstyle:plain
+# True transparency
+URxvt*depth:32
+URxvt*background:rgba:0000/0000/0000/bbbb
+
+# Native transparency - do not use
+#URxvt.transparent: true
+#URxvt.shading: 20
+
+URxvt*perl-ext-common:default,matcher
+URxvt*urlLauncher:firefox
+URxvt*matcher.button:3
+URxvt*matcher.pattern.1:\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher,pattern.2:\\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
