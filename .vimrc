@@ -88,6 +88,12 @@ set hlsearch
 set hidden             " Hide buffers when they are abandoned
 "set mouse=a		" Enable mouse usage (all modes)
 
+" Better tabs!
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
