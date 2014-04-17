@@ -15,21 +15,24 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
-Bundle 'vim-scripts/c.vim'
-Bundle 'rstacruz/sparkup'
-Bundle 'http://github.com/slim-template/vim-slim.git'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'gmarik/vundle'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-scripts/c.vim'
+Plugin 'rstacruz/sparkup'
+Plugin 'http://github.com/slim-template/vim-slim.git'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'Valloric/YouCompleteMe'
 filetype plugin indent on
 
 " also have pathogen
-call pathogen#infect()
+" execute pathogen#infect()
 
 " testing
-let g:ycm_register_as_syntastic_checker = 0
+" let g:ycm_register_as_syntastic_checker = 0
+" let g:ycm_show_diagnostics_ui=1
+" let g:syntastic_auto_loc_list=1
+" let g:syntastic_enable_signs=1
 
 set title
 set scrolloff=2			"keep 3 lines above and below cursor
