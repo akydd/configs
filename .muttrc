@@ -1,0 +1,28 @@
+set from="username@domain.net"
+set realname="Real Name"
+set imap_user="username@domain.net"
+set imap_pass="password"
+
+# remote gmail folders
+set folder="imaps://imap.gmail.com:993"
+set spoolfile="+Eudyptula"
+
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+
+# SMTP
+set smtp_url="smtps://username@domain.net@smtp.gmail.com:465/"
+set smtp_pass="password"
+
+# securing
+set move=no
+set imap_keepalive=900
+
+# my own likes
+set editor="vim"
+set pager_index_lines=6
+bind index gg first-entry
+bind index G last-entry
+bind pager gg top
+bind pager G bottom
